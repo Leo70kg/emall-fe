@@ -1,0 +1,29 @@
+/*
+* @Author: Administrator
+* @Date:   2020-08-03 21:40:03
+* @Last Modified by:   Administrator
+* @Last Modified time: 2020-08-03 21:57:36
+*/
+.page-wrap{
+    background: #fff;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+.result-con{
+    display: none;
+}
+
+.result-con .result-title{
+    color: #555;
+}
+.result-con .result-content{
+    margin-top: 20px;
+
+}
+.result-con .result-content .link{
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    margin: 0 5px;
+
+}
