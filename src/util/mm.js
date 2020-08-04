@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2020-07-31 14:13:16
-* @Last Modified by:   Administrator
-* @Last Modified time: 2020-08-01 14:36:29
+* @Last Modified by:   zuoyou
+* @Last Modified time: 2020-08-04 23:58:21
 */
 'use strict'
 var Hogan = require('hogan.js');
@@ -82,14 +82,15 @@ var _mm = {
         }
 
         // 邮箱格式验证
-        if('require' === type){
-            return /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/.test(value);
+        if('email' === type){
+            //return /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/.test(value);
+            return /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(value);
         }
     },
 
     // 统一登录处理
     doLogin : function(){
-        window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+        window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
     },
 
     goHome : function(){

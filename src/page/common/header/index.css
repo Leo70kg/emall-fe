@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2020-08-03 19:31:54
-* @Last Modified by:   Administrator
-* @Last Modified time: 2020-08-03 19:55:56
+* @Last Modified by:   zuoyou
+* @Last Modified time: 2020-08-04 22:58:17
 */
 /* 通用头部导航 */
 .header .logo{
@@ -13,6 +13,7 @@
     font-size: 36px;
     color: #c60023;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .header .search-con{
@@ -33,4 +34,15 @@
     position: absolute;
     height: 46px;
     width: 94px;
+}
+
+/* 面包屑导航 */
+.crumb{
+    margin-bottom: 15px;
+    height: 50px;
+    line-height: 50px;
+    background: #eee;
+    color: #888;
+    font-size: 14px;
+    border-top: 2px solid #c60023;
 }

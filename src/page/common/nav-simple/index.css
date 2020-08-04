@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2020-08-01 14:06:51
-* @Last Modified by:   Administrator
-* @Last Modified time: 2020-08-01 14:11:03
+* @Last Modified by:   zuoyou
+* @Last Modified time: 2020-08-04 22:59:08
 */
 .nav-simple{
     height: 60px;
@@ -15,4 +15,5 @@
     font-size: 26px;
     font-weight: bold;
     color: #c60023;
+    text-decoration: none;
 }

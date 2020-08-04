@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2020-08-01 14:23:50
-* @Last Modified by:   Administrator
-* @Last Modified time: 2020-08-01 14:47:54
+* @Last Modified by:   zuoyou
+* @Last Modified time: 2020-08-04 21:55:20
 */
 'use strict';
 require('./index.css');
@@ -25,7 +25,7 @@ var nav = {
 
         // 注册点击事件
         $('.js-register').click(function(){
-            window.location.href = './register.html';
+            window.location.href = './user-register.html';
         });
 
         // 退出点击事件

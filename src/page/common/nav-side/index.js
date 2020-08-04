@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2020-08-01 14:23:50
-* @Last Modified by:   Administrator
-* @Last Modified time: 2020-08-03 20:41:46
+* @Last Modified by:   zuoyou
+* @Last Modified time: 2020-08-05 00:34:13
 */
 'use strict';
 require('./index.css');
@@ -17,7 +17,7 @@ var navSide = {
         navList : [
             {name: 'user-center', desc: '个人中心', href: './user-center.html'},
             {name: 'order-list', desc: '我的订单', href: './order-list.html'},
-            {name: 'pass-update', desc: '修改密码', href: './pass-update.html'},
+            {name: 'user-pass-update', desc: '修改密码', href: './user-pass-update.html'},
             {name: 'about', desc: '关于MMall', href: './about.html'}
         ]
     },

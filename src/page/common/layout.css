@@ -1,8 +1,8 @@
 
 * @Author: Administrator
 * @Date:   2020-07-31 23:53:57
-* @Last Modified by:   Administrator
-* @Last Modified time: 2020-08-01 00:30:31
+* @Last Modified by:   zuoyou
+* @Last Modified time: 2020-08-04 23:08:32
 */
 
 /*css reset*/
@@ -38,6 +38,25 @@ input[type='checkbox']{
     width: 1080px;
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
+}
+
+/* panel */
+.panel{
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.panel .panel-title{
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+}
+.panel .panel-body{
+    padding: 10px;
     overflow: hidden;
 }
 
