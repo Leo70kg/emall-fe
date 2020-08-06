@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2020-08-03 19:31:47
-* @Last Modified by:   Administrator
-* @Last Modified time: 2020-08-03 19:58:10
+* @Last Modified by:   zuoyou
+* @Last Modified time: 2020-08-05 23:44:27
 */
 'use strict';
 require('./index.css');
@@ -12,8 +12,9 @@ var _mm = require('util/mm.js');
 // 通用页面头部
 var header = {
     init : function(){
+        this.onLoad();
         this.bindEvent();
-        return this;
+        
     },
     onLoad : function(){
         var keyword = _mm.getUrlParam('keyword');

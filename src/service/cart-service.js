@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2020-08-01 14:48:07
-* @Last Modified by:   Administrator
-* @Last Modified time: 2020-08-01 14:51:38
+* @Last Modified by:   zuoyou
+* @Last Modified time: 2020-08-06 18:16:08
 */
 'use strict';
 
@@ -17,7 +17,16 @@ var _cart = {
             success : resolve,
             error   : reject
         });
-    }
+    },
+    // 添加购物车
+    addToCart : function(productInfo, resolve, reject){
+        _mm.request({
+            url     : _mm.getServerUrl('/cart/add.do'),
+            data    : productInfo,
+            success : resolve,
+            error   : reject
+        });
+    },
 };
 
 module.exports = _cart;

@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2020-07-31 14:13:16
 * @Last Modified by:   zuoyou
-* @Last Modified time: 2020-08-04 23:58:21
+* @Last Modified time: 2020-08-05 15:31:50
 */
 'use strict'
 var Hogan = require('hogan.js');
@@ -26,7 +26,7 @@ var _mm = {
                 }
                 // 没有登录状态，需要强制登录
                 else if(10 === res.status){
-                    _this.doLigin();
+                    _this.doLogin();
                 }
                 // 请求数据错误
                 else if(1 === res.status){
